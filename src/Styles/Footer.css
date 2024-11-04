@@ -1,0 +1,94 @@
+.footer{
+    padding: .3rem;
+    padding-bottom: 0;
+    background-color:rgb(0, 0, 0);
+}
+.footer_main{
+    display: flex;
+    width: auto;
+    height: 170px;   
+    background-image: url("../Assets/dark-theme3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3rem 3rem 0rem 0rem;
+}
+
+.footer_left{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4rem 0rem 0rem 4rem;
+}
+
+.logo{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.logo svg{
+    height: 2.6rem;
+    width: 5rem;
+}
+.logo p{
+    margin-top: .5rem;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: azure;
+    text-decoration: underline;
+}
+.add{
+    margin-top: 1rem;
+    width: 100%;
+    color: rgb(252, 235, 220);
+}
+.add p{
+    font-weight: 900;
+    width: 18rem;
+    margin: auto;
+    font-size: .9rem;
+}
+.footer_right{
+    width: 60%;
+    display: flex;
+}
+
+.twen{
+    width: 100%;
+    color: rgb(250, 241, 254);
+    background-color: rgba(240, 248, 255, 0.144);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.twen p{
+    margin: .2rem;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.border{
+    display: flex;
+    background-color: rgb(114, 62, 159);
+    width: 100%;
+    justify-content: center;
+    border-radius: 0rem 0rem 3rem 3rem;
+}
+.border .icons{
+    display: flex;
+    margin: .3rem;
+    gap: .1rem;
+}
+.icons svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.border .copyr{ display: flex;
+    justify-content: center;
+    width: 50%;    
+}
+.border .arrow{
+
+
+}
